@@ -28,23 +28,12 @@
 	img {
 		
 		@include media-breakpoint-up(lg) {
-     margin-left: 62rem;
-     width: 7.5rem;
-     margin-top: -5.5rem;
-		}
-		 @media (min-width: 1395px) and (max-width: 2755px) { 
-       margin-left: 73rem;
-      }
-       @media (min-width: 995px) and (max-width: 1199px) { 
-       margin-left: 50rem;
-      }
-      @media (min-width: 1386px) and (max-width: 1396px) { 
-       margin-left: 62rem;
-      }
-
-
+      margin-left: -1rem;
+      width: 7.5rem;
+      margin-top: -5.5rem;
 
      
+		}
 	
 		@include media-breakpoint-only(md) {
 			display: none;
@@ -55,7 +44,6 @@
 
 	}
 }
-
 
 .intro-section {
 	margin-top: 7rem;
@@ -96,7 +84,7 @@
 	@include media-breakpoint-only(md) {
 		margin-top: -6rem;
 	}
-  @media (min-width: 50px) and (max-width: 575px) { 
+	@include media-breakpoint-down(sm) {
 		width: 100%;
 		margin-top: -2rem;
 	}
@@ -186,9 +174,9 @@
 	h1 {
 		@include media-breakpoint-up(lg) {
  		 font-family: 'Noto Nastaliq Urdu', serif;
- 		 font-size: 1.5rem;
+ 		 font-size: 2rem;
       filter: drop-shadow(0.20em 0.30em 0.2em);
- 		 text-align: right;
+
 		}
 		 @include media-breakpoint-only(md) {
  		 font-family: 'Noto Nastaliq Urdu', serif;
@@ -205,8 +193,7 @@
 		p {
 		@include media-breakpoint-up(lg) {
  		 font-family: 'Noto Nastaliq Urdu', serif;
-		 margin-top: -4rem;
-		 text-align: right;
+		 margin-top: -6rem;
 		 line-height: 2.5rem;
 		 color: red;
 		}
@@ -231,19 +218,18 @@
 	
   	p {
   	@include media-breakpoint-up(lg) {
-  	text-align: right;
+  	
   	font-family: 'Noto Nastaliq Urdu', serif;
     margin-right: 4rem;
     margin-bottom: 0;
     margin-top: 0.5rem;
   	}
 	@include media-breakpoint-only(md) {
-   text-align: right;
    font-family: 'Noto Nastaliq Urdu', serif;
    margin-right: 2.2rem;
 	}
 	@include media-breakpoint-down(sm) {
-		text-align: right;
+		
   	font-family: 'Noto Nastaliq Urdu', serif;
   	 font-size: 0.7rem;
      line-height: 1.5rem;

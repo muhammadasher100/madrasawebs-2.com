@@ -11120,79 +11120,82 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .accordion-button h6 {
-    margin-left: 27rem;
-    text-align: right;
-    margin-top: 1rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .accordion-button h6 {
-    text-align: right;
-    margin-left: 2rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 @media (max-width: 575.98px) {
   .accordion-button h6 {
-    text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 0.7rem;
     line-height: 1.5rem;
     margin-right: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 @media (min-width: 992px) {
   .accordion-button h5 {
-    margin-left: 26rem;
-    text-align: right;
     margin-top: 1rem;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .accordion-button h5 {
-    text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
     font-size: 1rem;
-    margin-left: 4.5rem;
   }
 }
 @media (max-width: 575.98px) {
   .accordion-button h5 {
-    text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 0.7rem;
     line-height: 1.5rem;
     margin-right: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 @media (min-width: 992px) {
   .accordion-button h4 {
-    margin-left: 14rem;
-    text-align: right;
-    margin-top: 1rem;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .accordion-button h4 {
-    text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1rem;
     margin-right: 0.5rem;
     line-height: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 @media (max-width: 575.98px) {
   .accordion-button h4 {
-    text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 0.7rem;
     line-height: 1.5rem;
     margin-right: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
   }
 }
 
@@ -11405,7 +11408,6 @@ textarea.form-control-lg {
 }
 .last-section h1 {
   font-size: 2.5rem;
-  text-align: right;
   line-height: 3rem;
   margin-bottom: 2rem;
   font-weight: lighter;
@@ -11419,7 +11421,6 @@ textarea.form-control-lg {
 }
 .last-section h2 {
   font-size: 1.3rem;
-  text-align: right;
   font-family: "Noto Nastaliq Urdu", serif;
   color: red;
 }
@@ -11474,6 +11475,12 @@ textarea.form-control-lg {
     background-color: #16213d;
     padding: 0.5rem;
     padding-top: 1rem;
+    display: none;
+  }
+}
+@media (min-width: 1395px) and (max-width: 2755px) {
+  .menu .dropdown {
+    margin-left: 16rem;
   }
 }
 @media (max-width: 767.98px) {
@@ -11488,7 +11495,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .menu .dropdown {
-    margin-left: 7rem;
+    margin-left: 6rem;
   }
 }
 .menu .dropdown a {
@@ -11517,7 +11524,7 @@ textarea.form-control-lg {
     left: 50 !important;
     right: auto !important;
     text-align: center !important;
-    transform: translate(-39%, 0) !important;
+    transform: translate(-27%, 0) !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11528,15 +11535,6 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .menu .dropdown-menu {
     background-color: #16213d;
-  }
-}
-@media (min-width: 991px) and (max-width: 2755px) {
-  .menu .dropdown-menu:hover {
-    background-color: #563d7c;
-  }
-  .menu .dropdown-menu:hover a {
-    color: white;
-    text-decoration: underline;
   }
 }
 @media (max-width: 575.98px) {
@@ -11551,17 +11549,50 @@ textarea.form-control-lg {
 .menu .dropdown-menu a {
   color: white;
 }
-@media (min-width: 991px) and (max-width: 2755px) {
-  .menu .dropdown-menu a {
-    margin-left: 2rem;
-  }
-}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .menu .dropdown-menu a {
     color: white;
   }
   .menu .dropdown-menu a:hover {
     color: black;
+    text-decoration: underline;
+  }
+}
+.menu .another {
+  display: block;
+}
+@media (min-width: 52px) and (max-width: 991px) {
+  .menu .another {
+    display: none;
+  }
+}
+.menu .another .another-1 {
+  background-color: #16213d;
+}
+@media (min-width: 991px) and (max-width: 2755px) {
+  .menu .another .another-1 {
+    left: 50 !important;
+    right: auto !important;
+    text-align: right !important;
+    transform: translate(-38%, 0) !important;
+  }
+}
+@media (min-width: 991px) and (max-width: 2755px) {
+  .menu .another .another-1 {
+    background-color: #16213d;
+  }
+  .menu .another .another-1:hover {
+    background-color: #563d7c;
+  }
+  .menu .another .another-1:hover a {
+    color: white;
+  }
+  .menu .another .another-1 a {
+    color: white;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+  .menu .another .another-1 a:hover {
     text-decoration: underline;
   }
 }
@@ -11602,11 +11633,16 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .menu .navbar-nav {
+    margin-left: -2rem;
+  }
+}
+@media (min-width: 992px) {
   .menu .navbar-nav a {
     color: white !important;
     margin-top: 1.5rem;
-    font-size: 1rem;
-    margin-right: 2rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
   }
 }
 @media (max-width: 767.98px) {
@@ -11686,16 +11722,14 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -11704,7 +11738,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -11713,16 +11746,14 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color: red;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     margin-bottom: 3rem;
     color: red;
@@ -11731,7 +11762,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     margin-bottom: 2rem;
     color: red;
@@ -11741,17 +11771,15 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h3 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1.3rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 3rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h3 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1.3rem;
     font-weight: 400;
@@ -11761,7 +11789,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h3 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1rem;
     font-weight: 400;
@@ -11771,19 +11798,17 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h4 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     color: red;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
+    margin-left: 2rem;
     margin-bottom: 2rem;
-    margin-right: 4rem;
     line-height: 2rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h4 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     color: red;
     font-size: 1rem;
@@ -11795,7 +11820,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h4 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     color: red;
     font-size: 0.8rem;
@@ -11921,11 +11945,6 @@ textarea.form-control-lg {
     font-family: "Noto Nastaliq Urdu", serif;
   }
 }
-@media (max-width: 575.98px) {
-  .course-page .details {
-    margin-left: -10rem;
-  }
-}
 .course-page .details h1 {
   font-size: 2rem;
   font-family: "Noto Nastaliq Urdu", serif;
@@ -11968,11 +11987,6 @@ textarea.form-control-lg {
     font-family: "Noto Nastaliq Urdu", serif;
   }
 }
-@media (min-width: 992px) {
-  .course-page .details img {
-    margin-left: 20rem;
-  }
-}
 @media (max-width: 575.98px) {
   .course-page .details-1 {
     margin-top: -12.4rem;
@@ -11995,7 +12009,7 @@ textarea.form-control-lg {
     font-weight: 900;
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    margin-top: -5rem;
+    margin-top: 15rem;
   }
 }
 .course-page .details-1 h2 {
@@ -12016,11 +12030,6 @@ textarea.form-control-lg {
     margin-top: 0.5rem;
   }
 }
-@media (min-width: 992px) {
-  .course-page img {
-    margin-left: 20rem;
-  }
-}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page img {
     margin-left: 7rem;
@@ -12028,7 +12037,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .course-page img {
-    margin-left: 10rem;
     width: 10rem;
   }
 }
@@ -12145,7 +12153,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .facilities h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -12154,7 +12161,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -12163,7 +12169,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .facilities h1 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -12172,7 +12177,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .facilities h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 200;
     font-size: 1.5rem;
@@ -12183,7 +12187,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 200;
     font-size: 1.3rem;
@@ -12195,7 +12198,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .facilities h2 {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 200;
     font-size: 1rem;
@@ -12211,7 +12213,6 @@ textarea.form-control-lg {
   }
 }
 .facilities .pics .image-1 {
-  text-align: right;
   filter: drop-shadow(0.5em 0.6em 0.3em);
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12225,14 +12226,14 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .facilities .pics .image-1 h1 {
     text-align: left;
-    margin-left: 2rem;
-    margin-top: -3rem;
+    margin-left: 11rem;
+    margin-top: -10rem;
     margin-bottom: 2.5rem;
   }
 }
 .facilities .pics .image-2 {
-  text-align: right;
   margin-top: -2rem;
+  text-align: center;
   filter: drop-shadow(0.5em 0.6em 0.3em);
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12240,8 +12241,18 @@ textarea.form-control-lg {
     margin-top: -1rem;
   }
 }
+@media (max-width: 575.98px) {
+  .facilities .pics .image-2 {
+    margin-top: 3rem;
+  }
+}
 .facilities .pics .image-2 h1 {
-  margin-right: 3rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .facilities .pics .image-2 h1 {
+    margin-top: 1rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities .pics .image-2 h1 {
@@ -12251,12 +12262,12 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .facilities .pics .image-2 h1 {
     text-align: left;
-    margin-top: -5rem;
-    margin-left: 2rem;
+    margin-top: -14rem;
+    margin-left: 4rem;
   }
 }
 .facilities .pics .image-3 {
-  text-align: right;
+  text-align: center;
   filter: drop-shadow(0.5em 0.6em 0.3em);
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12264,16 +12275,22 @@ textarea.form-control-lg {
     margin-top: 1rem;
   }
 }
+@media (max-width: 575.98px) {
+  .facilities .pics .image-3 {
+    margin-top: 10rem;
+  }
+}
 .facilities .pics .image-3 h1 {
+  text-align: center;
   margin-top: 2rem;
   margin-right: 2rem;
 }
 @media (max-width: 575.98px) {
   .facilities .pics .image-3 h1 {
     text-align: left;
-    margin-top: -5rem;
-    margin-left: 4rem;
-    font-size: 2rem;
+    margin-top: -0.2rem;
+    margin-left: 7.5rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -12310,24 +12327,9 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .top-bar img {
-    margin-left: 62rem;
+    margin-left: -1rem;
     width: 7.5rem;
     margin-top: -5.5rem;
-  }
-}
-@media (min-width: 1395px) and (max-width: 2755px) {
-  .top-bar img {
-    margin-left: 73rem;
-  }
-}
-@media (min-width: 995px) and (max-width: 1199px) {
-  .top-bar img {
-    margin-left: 50rem;
-  }
-}
-@media (min-width: 1386px) and (max-width: 1396px) {
-  .top-bar img {
-    margin-left: 62rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12387,7 +12389,7 @@ textarea.form-control-lg {
     margin-top: -6rem;
   }
 }
-@media (min-width: 50px) and (max-width: 575px) {
+@media (max-width: 575.98px) {
   .intro-section-2 .madrassa-1 {
     width: 100%;
     margin-top: -2rem;
@@ -12479,9 +12481,8 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .faq h1 {
     font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    text-align: right;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12502,8 +12503,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .faq p {
     font-family: "Noto Nastaliq Urdu", serif;
-    margin-top: -4rem;
-    text-align: right;
+    margin-top: -6rem;
     line-height: 2.5rem;
     color: red;
   }
@@ -12526,7 +12526,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .faq .accordion-body p {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     margin-right: 4rem;
     margin-bottom: 0;
@@ -12535,14 +12534,12 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .faq .accordion-body p {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     margin-right: 2.2rem;
   }
 }
 @media (max-width: 575.98px) {
   .faq .accordion-body p {
-    text-align: right;
     font-family: "Noto Nastaliq Urdu", serif;
     font-size: 0.7rem;
     line-height: 1.5rem;
@@ -12568,26 +12565,8 @@ textarea.form-control-lg {
     display: none;
   }
 }
-.footer-1 .extra-blog {
-  text-align: right;
-}
 .footer-1 .extra-blog .entry-image {
   filter: drop-shadow(0.8em 0.8em 0.7em);
-}
-@media (max-width: 767.98px) {
-  .footer-1 .extra-blog .entry-image {
-    margin-right: 31rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .footer-1 .extra-blog .entry-image {
-    margin-left: 1rem;
-  }
-}
-@media (max-width: 767.98px) {
-  .footer-1 .extra-blog h4 {
-    margin-right: 31rem;
-  }
 }
 .footer-1 .entry-title h3 a {
   color: black;
@@ -12604,86 +12583,61 @@ textarea.form-control-lg {
 }
 
 .copyrights {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
 }
 
-.footer-widgets-wrap {
-  margin-top: -25.3rem;
-  padding-left: 10rem;
+.footer-widgets-wrap .widget_links h4 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
 }
+.footer-widgets-wrap .widget_links ul li {
+  list-style-type: none;
+}
+.footer-widgets-wrap .widget_links ul li a {
+  margin-left: -2rem;
+  text-decoration: none;
+  color: black;
+}
+.footer-widgets-wrap .widget_links ul li a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 767.98px) {
-  .footer-widgets-wrap {
-    padding-left: 0.1rem;
-    margin-right: 17rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .footer-widgets-wrap {
-    padding-left: 3rem;
-    margin-right: 6rem;
-  }
-}
-@media (max-width: 767.98px) {
-  .footer-widgets-wrap h4 {
-    font-size: 1.2rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .footer-widgets-wrap h4 {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 767.98px) {
-  .footer-widgets-wrap .help {
-    margin-top: 12rem;
-  }
-}
-@media (max-width: 767.98px) {
-  .footer-widgets-wrap .corporate {
-    margin-left: -4rem;
-    margin-top: -14.5rem;
-  }
-}
-@media (max-width: 767.98px) {
-  .footer-widgets-wrap .help-1, .footer-widgets-wrap .help-2 {
+  .help-1, .help-2 {
     display: none;
   }
 }
-.footer-widgets-wrap .get {
+
+.get {
   text-align: right;
 }
-.footer-widgets-wrap .get ul {
+.get ul {
   margin-top: 2rem;
   list-style-type: none;
   line-height: 2rem;
 }
-.footer-widgets-wrap .get ul li a {
+.get ul li a {
   text-decoration: none;
   color: black;
 }
-.footer-widgets-wrap .extra {
-  margin-top: 3rem;
-  text-align: right;
-  margin-left: 33.5rem;
-}
 @media (min-width: 768px) {
-  .footer-widgets-wrap .extra {
+  .get .extra {
     display: none;
   }
 }
 @media (max-width: 767.98px) {
-  .footer-widgets-wrap .extra {
+  .get .extra {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .footer-widgets-wrap .extra {
+  .get .extra {
     display: none;
   }
 }
-.footer-widgets-wrap hr {
+.get hr {
   width: 110%;
   height: 1px;
   background-color: black;

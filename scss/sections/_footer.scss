@@ -19,19 +19,15 @@
 
 	.extra-blog {
 	
-		text-align: right;
 		.entry-image {
 	  filter: drop-shadow(0.80em 0.80em 0.7em);
 	   @include media-breakpoint-down(md) {
-		 margin-right: 31rem;
 	   }
 		 @include media-breakpoint-only(md) {
-		 margin-left: 1rem;
 	   }
 		}
 		h4 {
 			 @include media-breakpoint-down(md) {
-		 margin-right: 31rem;
 	   }
 		}
 	}
@@ -50,40 +46,37 @@
 
 
 .copyrights {
-	margin-top: 10rem;
+	margin-top: 5rem;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,51,1) 35%, rgba(0,212,255,1) 100%);
 
 }
 .footer-widgets-wrap {
-	margin-top: -25.3rem;
-	padding-left: 10rem;
-	@include media-breakpoint-down(md) {
-	   padding-left: 0.1rem;
-	   margin-right: 17rem; 
-    	     }
-	 @include media-breakpoint-only(md) {
-	   
-	   padding-left: 3rem;
-	   margin-right: 6rem; 
-	     }
-	     h4 {
-	     	 @include media-breakpoint-down(md) {
-	       font-size: 1.2rem;
-	  }
-	     	 @include media-breakpoint-only(md) {
-	       font-size: 1.2rem;
-	  }
+	.widget_links {
+		h4 {
+			margin-top: 1rem;
+			font-size: 1.3rem;
+		}
+	ul li  {
+			list-style-type: none;
+			a {
+     margin-left: -2rem;
+     text-decoration: none;
+     color: black; 
+     &:hover {
+     	text-decoration: underline;
+     }
+
+			}
+   }
+	}
 	     }
   .help {
   		@include media-breakpoint-down(md) {
-    margin-top: 12rem;
 		    }
   }
   .corporate {
   	@include media-breakpoint-down(md) {
-    margin-left: -4rem;
-    margin-top: -14.5rem;
 		    }
   }
   .help-1, .help-2 {
@@ -108,12 +101,9 @@
 
 		}
 		text-align: right;
-  }
+  
 
  .extra {
- 	margin-top: 3rem;
- 	text-align: right;
- 	margin-left: 33.5rem;
   @include media-breakpoint-up(md) {
   display: none;
  	}
