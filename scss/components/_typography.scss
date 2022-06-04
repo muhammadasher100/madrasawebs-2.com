@@ -203,8 +203,10 @@
 			 margin-bottom: 1rem;
      	filter: drop-shadow(0.50em 0.60em 0.3em);
      	h5 {
-     		font-size: 2rem;
+     		font-size: 1.7rem;
+     		margin-left: -2rem;
 		    color: #040326;
+		    text-decoration: underline;
 
      	}
 		}
@@ -266,8 +268,10 @@
 
 		 
   @include media-breakpoint-down(sm) {
-	  font-size: 2rem;
+	  font-size: 1.7rem;
+	  margin-left: -2rem;
 		color: #040326;
+		text-decoration: underline;
 
     &:hover {
     	text-decoration: underline;
@@ -286,7 +290,8 @@
    	filter: drop-shadow(0.50em 0.60em 0.3em);
 
 		@include media-breakpoint-down(sm) {
-			font-size: 1rem;
+			font-size: 1.5rem;
+			
 		}
 
 	}
