@@ -4,7 +4,7 @@ $yellow-light:  #fcc302;
 $purple-dark:   #12c3cd;
 $green:         #343434;
 $footer:        #151414;
-
+$blue-1:        #030225;
 
 // scss-docs-start color-variables
 $blue:    #0d6efd;
@@ -33,13 +33,13 @@ $black:    #000;
 
 // scss-docs-end gray-color-variables
 
-$primary:     $yellow-dark;
+$primary:     $blue-1;
 $secondary:   $yellow-light;
 $success:     $purple-dark;
 
 // Accordion
 $accordion-icon-color:          $primary;
-$accordion-icon-active-color:   $secondary;
+$accordion-icon-active-color:   $blue-1;
 $accordion-icon-width:          1.875rem;
 
 

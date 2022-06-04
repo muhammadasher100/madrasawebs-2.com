@@ -1,31 +1,35 @@
 @use '../custom' as *;
 .facilities {
 	@include media-breakpoint-up(lg) {
-		margin-top: 11rem;
+		margin-top: 12rem;
 	}
 	@include media-breakpoint-only(md) {
 		margin-top: 10rem;
 	}
+   @media (min-width: 576px) and (max-width: 767px) { 
+    margin-top: 10rem;
+   }
 	@include media-breakpoint-down(sm) {
 		margin-top: 8rem;
 	}
 	h1 {
     @include media-breakpoint-up(lg) {
-      font-family: 'Noto Nastaliq Urdu', serif;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 2rem;
       filter: drop-shadow(0.20em 0.30em 0.2em);
 		}
 		 @include media-breakpoint-only(md) {
-      font-family: 'Noto Nastaliq Urdu', serif;
-      font-weight: 600;
+      font-weight: 700;
       filter: drop-shadow(0.20em 0.30em 0.2em);
       margin-bottom: 2rem;
-
-		}
+    }
+     @media (min-width: 576px) and (max-width: 767px) { 
+      font-weight: 700;
+      filter: drop-shadow(0.20em 0.30em 0.2em);
+      margin-bottom: 2rem;
+   }
 		 @include media-breakpoint-down(sm) {
-      font-family: 'Noto Nastaliq Urdu', serif;
-      font-weight: 600;
+      font-weight: 700;
       filter: drop-shadow(0.20em 0.30em 0.2em);
       margin-bottom: 2rem;
 
@@ -33,7 +37,6 @@
 	}
 	h2 {
 		@include media-breakpoint-up(lg) {
-      font-family: 'Noto Nastaliq Urdu', serif;
       font-weight: 200;
       font-size: 1.5rem;
       margin-right: 5rem;
@@ -41,7 +44,6 @@
       color: red;
 		}
 		@include media-breakpoint-only(md) {
-      font-family: 'Noto Nastaliq Urdu', serif;
       font-weight: 200;
       font-size: 1.3rem;
       margin-right: 4rem;
@@ -49,8 +51,15 @@
       line-height: 2.7rem;
       color: red;
 		}
+    @media (min-width: 576px) and (max-width: 767px) { 
+      font-weight: 200;
+      font-size: 1.3rem;
+      margin-right: 4rem;
+      margin-bottom: 1.5rem;
+      line-height: 2.7rem;
+      color: red;
+   }
 		@include media-breakpoint-down(sm) {
-      font-family: 'Noto Nastaliq Urdu', serif;
       font-weight: 200;
       font-size: 1rem;
       margin-right: 2rem;
@@ -92,6 +101,9 @@
      @include media-breakpoint-only(md) {
      	margin-top: -1rem;
      }
+      @media (min-width: 576px) and (max-width: 767px) { 
+    margin-top: 2rem;
+   }
       @include media-breakpoint-down(sm) {
       margin-top: 3rem;
      }

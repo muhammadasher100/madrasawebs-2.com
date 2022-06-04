@@ -158,7 +158,6 @@ border-color: blue;
 	padding-top: 1rem;
 	margin-top: 5rem;
 	background-color: $footer;
-	text-align: right;
 
 
 	.contact-box {
@@ -178,31 +177,20 @@ border-color: blue;
 				color: $white;
 				text-decoration: none;
 				font-size: 1rem;
-		   margin-left: 7rem;
-		   
-
 			}
 
 			&--subtitle {
 				font-size: 0.8rem;
 				color: $gray-600;
 				text-decoration: none;
-				margin-left: 2rem;
-				text-align: right;
 			}
-		}
-		.title-3 {
-			margin-left: 9.5rem;
-      color: white;
-      text-decoration: none;
-
 		}
 	}
 }
 
 .footer-sm {
 	a {
-		color: white;
+		color: $white;
 		i {
 			font-size: 2rem;
 			margin-left: 1rem;
@@ -216,33 +204,28 @@ border-color: blue;
 
 .company-list {
 	a {
-		color: white;
+		color: $white;
 		text-decoration: none;
 
 		&:hover {
+			color: $primary;
 			text-decoration: underline;
 		}
 	}
 
 }
-.company-list-1 h5, {
-	float: left;
-	margin-top: -10.3rem;
-	margin-left: 3.5rem;
-}
-.company-list-2 {
-	float: left;
-	margin-top: -8.5rem;
-}
 .footer-bottom {
-	background-color: black;
+	background-color: $black;
 	&__copyright {
+		color: $gray-600;
 		font-weight: 400;
 
 		a {
+			color: $gray-300;
 			text-decoration: none;
 
 			&:hover {
+				color: $primary;
 				text-decoration: underline;
 			}
 		}
@@ -251,15 +234,26 @@ border-color: blue;
 
 .back-to-top {
 	position: fixed;
-	left: 1.875rem;
 	bottom: 1.875rem;
 	width: 4rem;
 	height: 4rem;
 	z-index: 9999;
 	background-color:  #0b0a2a;
-	@include media-breakpoint-down(sm) {
-		right: 1.875rem;
-	}
+	  @media (min-width: 2756px) and (max-width: 4275px)  { 
+	  margin-left: 77rem;
+	  }
+	  @media (min-width: 1400px) and (max-width: 2755px)  { 
+    margin-left:  77rem;
+     } 	
+      @media (min-width: 1200px) and (max-width: 1399px)  { 
+    margin-left: 66rem;
+     } 	
+     @media (min-width: 991px) and (max-width: 1199px)  { 
+    margin-left: 55rem;
+     } 
+     @media (min-width: 1px) and (max-width: 990px)  { 
+     right: 1.875rem;
+     } 	
 	i {
 		color: white;
 		font-size: 2rem;

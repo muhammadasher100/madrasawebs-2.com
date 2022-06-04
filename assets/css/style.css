@@ -28,7 +28,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #daac00;
+  --bs-primary: #030225;
   --bs-secondary: #fcc302;
   --bs-success: #12c3cd;
   --bs-info: #0dcaf0;
@@ -36,7 +36,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 218, 172, 0;
+  --bs-primary-rgb: 3, 2, 37;
   --bs-secondary-rgb: 252, 195, 2;
   --bs-success-rgb: 18, 195, 205;
   --bs-info-rgb: 13, 202, 240;
@@ -228,11 +228,11 @@ sup {
 }
 
 a {
-  color: #daac00;
+  color: #030225;
   text-decoration: underline;
 }
 a:hover {
-  color: #ae8a00;
+  color: #02021e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2014,15 +2014,15 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #f8eecc;
-  --bs-table-striped-bg: #ece2c2;
+  --bs-table-bg: #cdccd3;
+  --bs-table-striped-bg: #c3c2c8;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfd6b8;
+  --bs-table-active-bg: #b9b8be;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5dcbd;
+  --bs-table-hover-bg: #bebdc3;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #dfd6b8;
+  border-color: #b9b8be;
 }
 
 .table-secondary {
@@ -2203,9 +2203,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #edd680;
+  border-color: #818192;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2365,9 +2365,9 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: #edd680;
+  border-color: #818192;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.75rem;
@@ -2431,13 +2431,13 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #edd680;
+  border-color: #818192;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .form-check-input:checked {
-  background-color: #daac00;
-  border-color: #daac00;
+  background-color: #030225;
+  border-color: #030225;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2446,8 +2446,8 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #daac00;
-  border-color: #daac00;
+  background-color: #030225;
+  border-color: #030225;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -2476,7 +2476,7 @@ textarea.form-control-lg {
   }
 }
 .form-switch .form-check-input:focus {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23edd680'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23818192'/%3e%3c/svg%3e");
 }
 .form-switch .form-check-input:checked {
   background-position: right center;
@@ -2510,10 +2510,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -2522,7 +2522,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #daac00;
+  background-color: #030225;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2534,7 +2534,7 @@ textarea.form-control-lg {
   }
 }
 .form-range::-webkit-slider-thumb:active {
-  background-color: #f4e6b3;
+  background-color: #b3b3be;
 }
 .form-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -2548,7 +2548,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #daac00;
+  background-color: #030225;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2560,7 +2560,7 @@ textarea.form-control-lg {
   }
 }
 .form-range::-moz-range-thumb:active {
-  background-color: #f4e6b3;
+  background-color: #b3b3be;
 }
 .form-range::-moz-range-track {
   width: 100%;
@@ -2919,7 +2919,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -2927,33 +2927,33 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #000;
-  background-color: #daac00;
-  border-color: #daac00;
+  color: #fff;
+  background-color: #030225;
+  border-color: #030225;
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: #e0b826;
-  border-color: #deb41a;
+  color: #fff;
+  background-color: #03021f;
+  border-color: #02021e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #000;
-  background-color: #e0b826;
-  border-color: #deb41a;
-  box-shadow: 0 0 0 0.25rem rgba(185, 146, 0, 0.5);
+  color: #fff;
+  background-color: #03021f;
+  border-color: #02021e;
+  box-shadow: 0 0 0 0.25rem rgba(41, 40, 70, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #000;
-  background-color: #e1bd33;
-  border-color: #deb41a;
+  color: #fff;
+  background-color: #02021e;
+  border-color: #02021c;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(185, 146, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(41, 40, 70, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
-  color: #000;
-  background-color: #daac00;
-  border-color: #daac00;
+  color: #fff;
+  background-color: #030225;
+  border-color: #030225;
 }
 
 .btn-secondary {
@@ -3167,27 +3167,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #daac00;
-  border-color: #daac00;
+  color: #030225;
+  border-color: #030225;
 }
 .btn-outline-primary:hover {
-  color: #000;
-  background-color: #daac00;
-  border-color: #daac00;
+  color: #fff;
+  background-color: #030225;
+  border-color: #030225;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
-  color: #000;
-  background-color: #daac00;
-  border-color: #daac00;
+  color: #fff;
+  background-color: #030225;
+  border-color: #030225;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #daac00;
+  color: #030225;
   background-color: transparent;
 }
 
@@ -3368,11 +3368,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #daac00;
+  color: #030225;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #ae8a00;
+  color: #02021e;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3677,7 +3677,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #daac00;
+  background-color: #030225;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -3718,7 +3718,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #daac00;
+  background-color: #030225;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -3840,7 +3840,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #daac00;
+  color: #030225;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3850,7 +3850,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #ae8a00;
+  color: #02021e;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3897,7 +3897,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #daac00;
+  background-color: #030225;
 }
 
 .nav-fill > .nav-link,
@@ -4583,12 +4583,12 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #c49b00;
-  background-color: #fbf7e6;
+  color: #030221;
+  background-color: #e6e6e9;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fcc302'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23030225'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   transform: rotate(-180deg);
 }
 .accordion-button::after {
@@ -4597,7 +4597,7 @@ textarea.form-control-lg {
   height: 1.875rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23daac00'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23030225'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.875rem;
   transition: transform 0.2s ease-in-out;
@@ -4612,9 +4612,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #edd680;
+  border-color: #818192;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 
 .accordion-header {
@@ -4701,7 +4701,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #daac00;
+  color: #030225;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -4714,16 +4714,16 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #ae8a00;
+  color: #02021e;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #ae8a00;
+  color: #02021e;
   background-color: #e9ecef;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
 }
 
 .page-item:not(:first-child) .page-link {
@@ -4732,8 +4732,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #daac00;
-  border-color: #daac00;
+  background-color: #030225;
+  border-color: #030225;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -4830,12 +4830,12 @@ textarea.form-control-lg {
 }
 
 .alert-primary {
-  color: #836700;
-  background-color: #f8eecc;
-  border-color: #f4e6b3;
+  color: #020116;
+  background-color: #cdccd3;
+  border-color: #b3b3be;
 }
 .alert-primary .alert-link {
-  color: #695200;
+  color: #020112;
 }
 
 .alert-secondary {
@@ -4923,7 +4923,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #daac00;
+  background-color: #030225;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5004,8 +5004,8 @@ textarea.form-control-lg {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #daac00;
-  border-color: #daac00;
+  background-color: #030225;
+  border-color: #030225;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -5169,17 +5169,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-primary {
-  color: #836700;
-  background-color: #f8eecc;
+  color: #020116;
+  background-color: #cdccd3;
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #836700;
-  background-color: #dfd6b8;
+  color: #020116;
+  background-color: #b9b8be;
 }
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #836700;
-  border-color: #836700;
+  background-color: #020116;
+  border-color: #020116;
 }
 
 .list-group-item-secondary {
@@ -5298,7 +5298,7 @@ textarea.form-control-lg {
 }
 .btn-close:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(218, 172, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(3, 2, 37, 0.25);
   opacity: 1;
 }
 .btn-close:disabled, .btn-close.disabled {
@@ -6280,10 +6280,10 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #daac00;
+  color: #030225;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #e1bd33;
+  color: #02021e;
 }
 
 .link-secondary {
@@ -6726,7 +6726,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color: #daac00 !important;
+  border-color: #030225 !important;
 }
 
 .border-secondary {
@@ -11236,6 +11236,13 @@ textarea.form-control-lg {
     line-height: 2.5rem;
   }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+  .display-2--description {
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    margin-top: 3rem;
+  }
+}
 @media (max-width: 575.98px) {
   .display-2--description {
     margin-top: -6rem;
@@ -11320,18 +11327,45 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .display-3--description {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: none;
+    color: black;
+    line-height: 2rem;
+  }
+}
+
 @media (min-width: 992px) {
   .extra-head {
-    text-align: right;
-    margin-right: 7rem;
+    text-align: center;
+    margin-left: 29rem;
     margin-top: -11rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     filter: drop-shadow(0.8em 0.8em 0.7em);
   }
   .extra-head h5 {
-    font-size: 5rem;
-    font-weight: bold;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #040326;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .extra-head h5 {
+    font-size: 3rem;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    color: #040326;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .extra-head h5 {
+    text-align: right;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    color: #040326;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11342,8 +11376,9 @@ textarea.form-control-lg {
     filter: drop-shadow(0.5em 0.6em 0.3em);
   }
   .extra-head h5 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 2rem;
+    margin-left: -3rem;
+    color: #040326;
   }
 }
 @media (max-width: 575.98px) {
@@ -11354,17 +11389,17 @@ textarea.form-control-lg {
     filter: drop-shadow(0.5em 0.6em 0.3em);
   }
   .extra-head h5 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 2rem;
+    color: #040326;
   }
 }
 
 @media (min-width: 992px) {
   .extra-head-2 {
     text-align: center;
-    margin-right: 23rem;
+    margin-right: 24rem;
     margin-top: -11rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     filter: drop-shadow(0.8em 0.8em 0.7em);
   }
 }
@@ -11385,18 +11420,43 @@ textarea.form-control-lg {
   }
 }
 .extra-head-2 h5 {
+  color: #040326;
   font-size: 5rem;
-  font-weight: bold;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
+@media (min-width: 1400px) and (max-width: 4252px) {
+  .extra-head-2 h5 {
+    margin-left: -14rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .extra-head-2 h5 {
+    font-size: 3rem;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    margin-left: -6rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .extra-head-2 h5 {
+    font-size: 2rem;
+    margin-left: 3rem;
+    filter: drop-shadow(0.5em 0.6em 0.3em);
+    color: #040326;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .extra-head-2 h5 {
+    color: #040326;
     font-size: 2rem;
+    margin-left: -2.5rem;
   }
 }
 @media (max-width: 575.98px) {
   .extra-head-2 h5 {
     font-size: 2rem;
+    color: #040326;
   }
   .extra-head-2 h5:hover {
     text-decoration: underline;
@@ -11410,9 +11470,9 @@ textarea.form-control-lg {
   font-size: 2.5rem;
   line-height: 3rem;
   margin-bottom: 2rem;
-  font-weight: lighter;
+  font-weight: 400;
+  color: #040326;
   filter: drop-shadow(0.5em 0.6em 0.3em);
-  font-family: "Noto Nastaliq Urdu", serif;
 }
 @media (max-width: 575.98px) {
   .last-section h1 {
@@ -11421,8 +11481,7 @@ textarea.form-control-lg {
 }
 .last-section h2 {
   font-size: 1.3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
-  color: red;
+  color: black;
 }
 @media (max-width: 575.98px) {
   .last-section h2 {
@@ -11433,12 +11492,11 @@ textarea.form-control-lg {
 }
 
 .menu {
-  margin-top: 5rem;
+  margin-top: 6rem;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .menu {
-    position: relative;
     background: rgb(2, 0, 36);
     height: 5rem;
     margin-bottom: -8rem;
@@ -11466,12 +11524,12 @@ textarea.form-control-lg {
   .menu {
     background: rgb(198, 198, 198);
     background: linear-gradient(180deg, rgb(198, 198, 198) 0%, rgb(240, 240, 246) 100%);
-    margin-top: 3.5rem;
+    margin-top: 4rem;
   }
 }
 @media (min-width: 992px) {
   .menu .dropdown {
-    margin-top: -13.5rem;
+    margin-top: -15rem;
     background-color: #16213d;
     padding: 0.5rem;
     padding-top: 1rem;
@@ -11498,17 +11556,37 @@ textarea.form-control-lg {
     margin-left: 6rem;
   }
 }
+@media (min-width: 50px) and (max-width: 333px) {
+  .menu .dropdown {
+    margin-right: 2.5rem;
+  }
+}
+@media (min-width: 124px) and (max-width: 344px) {
+  .menu .dropdown {
+    margin-left: 5.2rem;
+  }
+}
+@media (min-width: 124px) and (max-width: 314px) {
+  .menu .dropdown {
+    margin-left: 3rem;
+  }
+}
 .menu .dropdown a {
   text-decoration: none;
   color: white;
   font-family: "Noto Nastaliq Urdu", serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 100;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .menu .dropdown a {
     color: black;
     font-size: 1.4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu .dropdown a {
+    color: black;
   }
 }
 @media (max-width: 575.98px) {
@@ -11577,7 +11655,34 @@ textarea.form-control-lg {
     transform: translate(-38%, 0) !important;
   }
 }
+@media (min-width: 2756px) and (max-width: 3242px) {
+  .menu .another .another-1 {
+    left: 50 !important;
+    right: auto !important;
+    text-align: right !important;
+    transform: translate(-38%, 0) !important;
+  }
+}
 @media (min-width: 991px) and (max-width: 2755px) {
+  .menu .another .another-1 {
+    background-color: #16213d;
+  }
+  .menu .another .another-1:hover {
+    background-color: #563d7c;
+  }
+  .menu .another .another-1:hover a {
+    color: white;
+  }
+  .menu .another .another-1 a {
+    color: white;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+  .menu .another .another-1 a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 2756px) and (max-width: 3242px) {
   .menu .another .another-1 {
     background-color: #16213d;
   }
@@ -11645,6 +11750,16 @@ textarea.form-control-lg {
     margin-left: 1rem;
   }
 }
+@media (min-width: 991px) and (max-width: 1199px) {
+  .menu .navbar-nav a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1395px) and (max-width: 1399px) {
+  .menu .navbar-nav a {
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 767.98px) {
   .menu .navbar-nav a {
     text-align: right;
@@ -11686,6 +11801,16 @@ textarea.form-control-lg {
     color: #5a5a5a;
   }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu .navbar-nav-1 a {
+    text-align: left;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+  .menu .navbar-nav-1 a:hover {
+    text-decoration: underline;
+  }
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .menu .navbar-nav-1 a {
     display: block;
@@ -11693,24 +11818,45 @@ textarea.form-control-lg {
     font-weight: 900;
     font-size: 1.3rem;
     color: #5a5a5a;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu .navbar-nav-1 a {
+    text-align: left;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+  .menu .navbar-nav-1 a:hover {
+    text-decoration: underline;
   }
 }
 @media (max-width: 575.98px) {
   .menu .navbar-nav-1 a {
     display: block;
-    text-align: right;
     color: #5a5a5a;
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    line-height: 0.1rem;
+    margin-left: -1rem;
+  }
+  .menu .navbar-nav-1 a:hover {
+    text-decoration: underline;
   }
 }
 
 @media (min-width: 992px) {
   .purposes {
-    margin-top: 11rem;
+    margin-top: 12rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .purposes {
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   .purposes {
     margin-top: 10rem;
   }
@@ -11722,7 +11868,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     margin-bottom: 1rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11730,7 +11875,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0.2em 0.3em 0.2em);
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .purposes h1 {
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11738,7 +11889,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11746,32 +11896,35 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
     margin-bottom: 2rem;
-    color: red;
+    color: black;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
     margin-bottom: 3rem;
-    color: red;
+    color: black;
+    filter: drop-shadow(0.2em 0.3em 0.2em);
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .purposes h2 {
+    margin-bottom: 3rem;
+    color: black;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (max-width: 575.98px) {
   .purposes h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
     margin-bottom: 2rem;
-    color: red;
+    color: black;
     font-size: 1.2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (min-width: 992px) {
   .purposes h3 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -11780,7 +11933,14 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h3 {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .purposes h3 {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 2rem;
@@ -11789,7 +11949,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h3 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
@@ -11798,8 +11957,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .purposes h4 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    color: red;
+    color: black;
     font-size: 1.2rem;
     font-weight: 200;
     margin-left: 2rem;
@@ -11809,8 +11967,17 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h4 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    color: red;
+    color: black;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .purposes h4 {
+    color: black;
     font-size: 1rem;
     font-weight: 200;
     margin-bottom: 2rem;
@@ -11820,8 +11987,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .purposes h4 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    color: red;
+    color: black;
     font-size: 0.8rem;
     font-weight: 200;
     margin-bottom: 2rem;
@@ -11839,6 +12005,11 @@ textarea.form-control-lg {
   .google-form {
     margin-top: 10rem;
     margin-bottom: -18rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .google-form {
+    margin-top: 10rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -11865,6 +12036,22 @@ textarea.form-control-lg {
     height: 380rem;
   }
 }
+@media (min-width: 1400px) and (max-width: 4252px) {
+  .google-form iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .google-form iframe {
+    margin-left: -5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .google-form iframe {
+    width: 100%;
+    height: 380rem;
+  }
+}
 @media (max-width: 575.98px) {
   .google-form iframe {
     width: 20.3rem;
@@ -11872,19 +12059,31 @@ textarea.form-control-lg {
     margin-left: -0.3rem;
   }
 }
+@media (min-width: 340px) and (max-width: 575px) {
+  .google-form iframe {
+    width: 100%;
+  }
+}
 
 .contact {
-  margin-top: 11rem;
+  margin-top: 12rem;
 }
 .contact h1 {
   text-align: center;
   margin-bottom: 1rem;
-  font-weight: 900;
+  font-weight: 600;
+  filter: drop-shadow(0.2em 0.3em 0.2em);
   font-size: 3rem;
+  text-decoration: underline;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contact h1 {
     margin-top: -2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact h1 {
+    margin-top: 1rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -11899,11 +12098,32 @@ textarea.form-control-lg {
     border-radius: 1rem;
   }
 }
+@media (min-width: 1400px) and (max-width: 2695px) {
+  .contact .map iframe {
+    margin-left: -1rem;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .contact .map iframe {
+    margin-left: -1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact .map iframe {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contact .map iframe {
     margin-left: 1.5rem;
     width: 40rem;
     border-radius: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact .map iframe {
+    width: 100%;
   }
 }
 @media (max-width: 575.98px) {
@@ -11914,6 +12134,30 @@ textarea.form-control-lg {
     border-radius: 0.5rem;
   }
 }
+@media (min-width: 340px) and (max-width: 575px) {
+  .contact .map iframe {
+    width: 100%;
+  }
+}
+
+address {
+  margin-top: 2rem;
+}
+address h1 {
+  color: #17223e;
+  filter: drop-shadow(0.2em 0.3em 0.2em);
+  text-decoration: underline;
+}
+address p {
+  margin-top: 2rem;
+}
+address .contact-details ul li {
+  list-style-type: none;
+}
+address .contact-details ul li span {
+  margin-left: -2rem;
+  font-weight: bold;
+}
 
 .course-page {
   margin-top: 12rem;
@@ -11922,10 +12166,9 @@ textarea.form-control-lg {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   line-height: 2rem;
-  color: red;
+  color: #040326;
   font-weight: 700;
   filter: drop-shadow(0.2em 0.3em 0.2em);
-  font-family: "Noto Nastaliq Urdu", serif;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page h1 {
@@ -11933,7 +12176,6 @@ textarea.form-control-lg {
     margin-bottom: 2.5rem;
     line-height: 3rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (max-width: 575.98px) {
@@ -11942,41 +12184,37 @@ textarea.form-control-lg {
     margin-bottom: 3rem;
     margin-top: -2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 .course-page .details h1 {
   font-size: 2rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  color: #040326;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details h1 {
     font-weight: 900;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 2rem;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .details h1 {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     margin-top: -2rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 .course-page .details h2 {
   font-size: 1.3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
-  color: red;
+  color: black;
+  font-weight: 200;
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details h2 {
     font-size: 1.3rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (max-width: 575.98px) {
@@ -11984,7 +12222,6 @@ textarea.form-control-lg {
     font-size: 0.7rem;
     font-weight: bold;
     margin-top: 0.5rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (max-width: 575.98px) {
@@ -11994,7 +12231,6 @@ textarea.form-control-lg {
 }
 .course-page .details-1 h1 {
   font-size: 2rem;
-  font-family: "Noto Nastaliq Urdu", serif;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -12014,9 +12250,9 @@ textarea.form-control-lg {
 }
 .course-page .details-1 h2 {
   font-size: 1.3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
   margin-bottom: 1rem;
-  color: red;
+  color: black;
+  font-weight: 200;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details-1 h2 {
@@ -12045,7 +12281,6 @@ textarea.form-control-lg {
     font-size: 2.5rem;
     margin-top: 3rem;
     margin-bottom: 6rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12053,7 +12288,6 @@ textarea.form-control-lg {
     font-size: 2.5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (max-width: 575.98px) {
@@ -12061,7 +12295,6 @@ textarea.form-control-lg {
     font-size: 1.6rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (min-width: 992px) {
@@ -12071,7 +12304,6 @@ textarea.form-control-lg {
     font-weight: 600;
     margin-top: -4rem;
     margin-bottom: 2rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12081,7 +12313,6 @@ textarea.form-control-lg {
     margin-right: 6rem;
     font-size: 1.7rem;
     font-weight: 900;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (max-width: 575.98px) {
@@ -12091,16 +12322,15 @@ textarea.form-control-lg {
     margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 600;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 @media (min-width: 992px) {
   .course-page .description h4 {
     margin-right: 8rem;
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: red;
+    color: black;
+    font-weight: 200;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12109,8 +12339,8 @@ textarea.form-control-lg {
     font-weight: 400;
     margin-bottom: 1.5rem;
     font-size: 1rem;
-    color: red;
-    font-family: "Noto Nastaliq Urdu", serif;
+    color: black;
+    font-weight: 200;
   }
 }
 @media (max-width: 575.98px) {
@@ -12119,12 +12349,11 @@ textarea.form-control-lg {
     font-weight: 400;
     font-size: 0.7rem;
     line-height: 1.5rem;
-    color: red;
-    font-family: "Noto Nastaliq Urdu", serif;
+    color: black;
+    font-weight: 200;
   }
 }
 .course-page .description h5 {
-  font-family: "Noto Nastaliq Urdu", serif;
   line-height: 2rem;
   font-size: 1rem;
   margin-bottom: 2rem;
@@ -12132,16 +12361,20 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .course-page .description h5 {
     font-size: 1rem;
-    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 
 @media (min-width: 992px) {
   .facilities {
-    margin-top: 11rem;
+    margin-top: 12rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .facilities {
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   .facilities {
     margin-top: 10rem;
   }
@@ -12153,31 +12386,34 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .facilities h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-weight: 600;
+    font-weight: 700;
+    filter: drop-shadow(0.2em 0.3em 0.2em);
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .facilities h1 {
+    font-weight: 700;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
   }
 }
 @media (max-width: 575.98px) {
   .facilities h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-weight: 600;
+    font-weight: 700;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
   }
 }
 @media (min-width: 992px) {
   .facilities h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 200;
     font-size: 1.5rem;
     margin-right: 5rem;
@@ -12187,7 +12423,16 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-right: 4rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.7rem;
+    color: red;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .facilities h2 {
     font-weight: 200;
     font-size: 1.3rem;
     margin-right: 4rem;
@@ -12198,7 +12443,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .facilities h2 {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 200;
     font-size: 1rem;
     margin-right: 2rem;
@@ -12239,6 +12483,11 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities .pics .image-2 {
     margin-top: -1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .facilities .pics .image-2 {
+    margin-top: 2rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -12300,7 +12549,8 @@ textarea.form-control-lg {
 .top-bar h1 {
   font-size: 2.5rem;
   font-family: alqalam;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   line-height: 2rem;
 }
 @font-face {
@@ -12328,11 +12578,16 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .top-bar img {
     margin-left: -1rem;
-    width: 7.5rem;
-    margin-top: -5.5rem;
+    width: 9.5rem;
+    margin-top: -7rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .top-bar img {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   .top-bar img {
     display: none;
   }
@@ -12364,9 +12619,19 @@ textarea.form-control-lg {
   margin-bottom: 5rem;
   filter: drop-shadow(0.8em 0.8em 0.7em);
 }
+@media (min-width: 576px) and (max-width: 767px) {
+  .intro-section .madrassa {
+    margin-top: 7rem;
+  }
+}
 @media (max-width: 575.98px) {
   .intro-section .madrassa {
     width: 100%;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .intro-section .madrassa {
+    text-align: center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12395,6 +12660,11 @@ textarea.form-control-lg {
     margin-top: -2rem;
   }
 }
+@media (min-width: 400px) and (max-width: 575px) {
+  .intro-section-2 .madrassa-1 {
+    margin-left: -3rem;
+  }
+}
 
 .intro-section-3 {
   background: rgb(2, 0, 36);
@@ -12416,6 +12686,11 @@ textarea.form-control-lg {
     top: 1rem;
     margin-bottom: 5rem;
     margin-top: 3rem;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .intro-section-3 .madrassa-2 {
+    text-align: center;
   }
 }
 @media (max-width: 575.98px) {
@@ -12524,9 +12799,11 @@ textarea.form-control-lg {
     color: red;
   }
 }
+.faq .accordion-body p {
+  color: #17223e;
+}
 @media (min-width: 992px) {
   .faq .accordion-body p {
-    font-family: "Noto Nastaliq Urdu", serif;
     margin-right: 4rem;
     margin-bottom: 0;
     margin-top: 0.5rem;
@@ -12534,13 +12811,11 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .faq .accordion-body p {
-    font-family: "Noto Nastaliq Urdu", serif;
     margin-right: 2.2rem;
   }
 }
 @media (max-width: 575.98px) {
   .faq .accordion-body p {
-    font-family: "Noto Nastaliq Urdu", serif;
     font-size: 0.7rem;
     line-height: 1.5rem;
     margin-right: 0.5rem;
@@ -12672,7 +12947,6 @@ textarea.form-control-lg {
   padding-top: 1rem;
   margin-top: 5rem;
   background-color: #151414;
-  text-align: right;
 }
 @media (min-width: 768px) {
   .footer-2 {
@@ -12694,7 +12968,7 @@ textarea.form-control-lg {
 }
 .footer-2 .contact-box__icon {
   width: 3rem;
-  stroke: #daac00;
+  stroke: #030225;
   padding-top: 0.5rem;
 }
 .footer-2 .contact-box__info {
@@ -12705,75 +12979,79 @@ textarea.form-control-lg {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
-  margin-left: 7rem;
 }
 .footer-2 .contact-box__info--subtitle {
   font-size: 0.8rem;
   color: #6c757d;
   text-decoration: none;
-  margin-left: 2rem;
-  text-align: right;
-}
-.footer-2 .contact-box .title-3 {
-  margin-left: 9.5rem;
-  color: white;
-  text-decoration: none;
 }
 
 .footer-sm a {
-  color: white;
+  color: #fff;
 }
 .footer-sm a i {
   font-size: 2rem;
   margin-left: 1rem;
 }
 .footer-sm a:hover {
-  color: #daac00;
+  color: #030225;
   text-decoration: underline;
 }
 
 .company-list a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .company-list a:hover {
+  color: #030225;
   text-decoration: underline;
 }
 
-.company-list-1 h5 {
-  float: left;
-  margin-top: -10.3rem;
-  margin-left: 3.5rem;
-}
-
-.company-list-2 {
-  float: left;
-  margin-top: -8.5rem;
-}
-
 .footer-bottom {
-  background-color: black;
+  background-color: #000;
 }
 .footer-bottom__copyright {
+  color: #6c757d;
   font-weight: 400;
 }
 .footer-bottom__copyright a {
+  color: #dee2e6;
   text-decoration: none;
 }
 .footer-bottom__copyright a:hover {
+  color: #030225;
   text-decoration: underline;
 }
 
 .back-to-top {
   position: fixed;
-  left: 1.875rem;
   bottom: 1.875rem;
   width: 4rem;
   height: 4rem;
   z-index: 9999;
   background-color: #0b0a2a;
 }
-@media (max-width: 575.98px) {
+@media (min-width: 2756px) and (max-width: 4275px) {
+  .back-to-top {
+    margin-left: 77rem;
+  }
+}
+@media (min-width: 1400px) and (max-width: 2755px) {
+  .back-to-top {
+    margin-left: 77rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .back-to-top {
+    margin-left: 66rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .back-to-top {
+    margin-left: 55rem;
+  }
+}
+@media (min-width: 1px) and (max-width: 990px) {
   .back-to-top {
     right: 1.875rem;
   }

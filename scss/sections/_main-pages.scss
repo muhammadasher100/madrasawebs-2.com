@@ -10,7 +10,8 @@
 			src: url(al-qalam/Al-Qalam-Quran-Majeed-2.ttf) format("truetytpe");
 		}
 		font-family: alqalam;
-		margin-top: 0.5rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		line-height: 2rem;
 		@include media-breakpoint-down(sm) {
 			margin-top: 0.5rem;
@@ -29,15 +30,17 @@
 		
 		@include media-breakpoint-up(lg) {
       margin-left: -1rem;
-      width: 7.5rem;
-      margin-top: -5.5rem;
-
+     width: 9.5rem;
+     margin-top: -7rem;
      
 		}
 	
 		@include media-breakpoint-only(md) {
 			display: none;
 		}
+		@media (min-width: 576px) and (max-width: 767px) { 
+      display: none;
+      }
 		@include media-breakpoint-down(sm) {
 			display: none;
 		}
@@ -63,9 +66,16 @@
 	filter: drop-shadow(0.80em 0.80em 0.7em);
 	@include media-breakpoint-only(md) { 
 		}
+		@media (min-width: 576px) and (max-width: 767px) { 
+      margin-top: 7rem;
+      }
+
 	@include media-breakpoint-down(sm) {
 		width: 100%;
 	}
+	@media (min-width: 400px) and (max-width: 575px) { 
+    text-align: center;
+  }
 
 	
 
@@ -88,6 +98,9 @@
 		width: 100%;
 		margin-top: -2rem;
 	}
+	@media (min-width: 400px) and (max-width: 575px) { 
+  margin-left: -3rem;
+  }
 }
 }
 
@@ -114,6 +127,10 @@
 	  margin-bottom: 5rem;
 	  margin-top: 3rem;
 	}
+	@media (min-width: 400px) and (max-width: 575px) { 
+    text-align: center;
+  }
+
 		@include media-breakpoint-only(xs) {
 		width: 100%;
 	  top: 1rem;
@@ -217,21 +234,19 @@
 .accordion-body {
 	
   	p {
+  		color: #17223e;
   	@include media-breakpoint-up(lg) {
   	
-  	font-family: 'Noto Nastaliq Urdu', serif;
     margin-right: 4rem;
     margin-bottom: 0;
     margin-top: 0.5rem;
   	}
 	@include media-breakpoint-only(md) {
-   font-family: 'Noto Nastaliq Urdu', serif;
    margin-right: 2.2rem;
 	}
 	@include media-breakpoint-down(sm) {
 		
-  	font-family: 'Noto Nastaliq Urdu', serif;
-  	 font-size: 0.7rem;
+   	 font-size: 0.7rem;
      line-height: 1.5rem;
      margin-right: 0.5rem;
 	}
