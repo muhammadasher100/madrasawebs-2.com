@@ -1,7 +1,7 @@
 @use '../custom' as *;
 .facilities {
 	@include media-breakpoint-up(lg) {
-		margin-top: 12rem;
+		margin-top: 14rem;
 	}
 	@include media-breakpoint-only(md) {
 		margin-top: 10rem;
@@ -80,6 +80,9 @@
 		}
 		.image-1 {
      filter: drop-shadow(0.50em 0.60em 0.3em);
+     @include media-breakpoint-up(lg) {
+     text-align: center;
+   }
         @include media-breakpoint-only(md) {
      	margin-top: 1rem;
      }

@@ -2,16 +2,26 @@
 .menu {
 	margin-top: 6rem;
   @include media-breakpoint-only(lg) {
-	background: rgb(2,0,36);
   height: 5rem;
   margin-bottom: -8rem;
 }
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,51,1) 35%, rgba(0,212,255,1) 100%);
   @include media-breakpoint-up(md) {
-	background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,51,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #b9b9b9;
+    height: 5rem;
+     margin-top: 7rem;
+   }
+  
+   @media (min-width: 758px) and (max-width: 767px) { 
+     margin-top: 5.8rem;
+   }
+  @media (min-width: 689px) and (max-width: 757px) { 
+     margin-top: 5.8rem;
+   }
+     @media (min-width: 576px) and (max-width: 687px) { 
+     margin-top: 5.8rem;
+   }
+	
  	
-  }
   @include media-breakpoint-down(md) {
   background: rgb(198,198,198);
 	background: linear-gradient(180deg, rgba(198,198,198,1) 0%, rgba(240,240,246,1) 100%);	
@@ -27,7 +37,7 @@
   }
   .dropdown {
   		@include media-breakpoint-up(lg) {
-      margin-top: -15rem;
+      margin-top: -17rem;
       background-color: #16213d;
       padding: 0.5rem;
       padding-top: 1rem;
@@ -209,9 +219,47 @@
 		}
 	}
 	.navbar-nav {
-		@include media-breakpoint-up(lg) {
-    margin-left: -2rem;
-	}
+   ul {
+    li {
+       @media (min-width: 1395px) and (max-width: 2755px) { 
+   margin-left: -3rem;
+  margin-right: 3.9rem;
+  width: 7rem;
+  }
+       @media (min-width: 1395px) and (max-width: 1400px) { 
+       margin-right: 3.3rem;
+       width: 6rem;
+       }
+       @media (min-width: 992px) and (max-width: 1199px) { 
+       margin-right: 3.5rem;
+       width: 6rem;
+       
+       }
+      float: left;
+      list-style-type: none;
+      background-color: black;
+        height: 5rem;
+      -webkit-border-radius: 5px;
+  -webkit-border-top-right-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius: 5px;
+  -moz-border-radius-topright: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-radius: 5px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 8.3rem;
+  margin-left: -3rem;
+  margin-right: 3.4rem;
+ 
+   @media (min-width: 50px) and (max-width: 991px) { 
+       display: none;
+      }
+   @include media-breakpoint-down(sm) {
+    display: none;
+      }
+    }
+   }
 		a {
 
 		@include media-breakpoint-up(lg) {
@@ -220,9 +268,13 @@
 			font-size: 1.1rem;
 			margin-left: 1rem;
 		  }
+       @media (min-width: 1395px) and (max-width: 2755px) { 
+        font-size: 0.8rem;
+       }
+
 
       @media (min-width: 991px) and (max-width: 1199px) { 
-      font-size: 1rem;
+      font-size: 0.8rem;
       }
        @media (min-width: 1395px) and (max-width: 1399px) { 
       font-size: 0.9rem;
