@@ -33,7 +33,7 @@
   @include media-breakpoint-down(sm) {
   background: rgb(198,198,198);
   background: linear-gradient(180deg, rgba(198,198,198,1) 0%, rgba(240,240,246,1) 100%);
-  margin-top: 4rem;
+  margin-top: 3.7rem;
   }
   .dropdown {
   		@include media-breakpoint-up(lg) {
