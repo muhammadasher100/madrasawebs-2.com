@@ -12091,9 +12091,21 @@ textarea.form-control-lg {
 .google-form h1 {
   text-align: center;
   margin-bottom: 3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
   font-weight: 400;
+  text-decoration: underline;
   filter: drop-shadow(0.2em 0.3em 0.2em);
+}
+.google-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  text-align: justify;
+}
+@media (max-width: 575.98px) {
+  .google-form h2 {
+    font-size: 1rem;
+    text-align: justify;
+  }
 }
 @media (min-width: 992px) {
   .google-form iframe {
@@ -12975,6 +12987,9 @@ address .contact-details ul li span {
 .footer-1 .contact ul li span {
   margin-left: 1rem;
   font-weight: bold;
+}
+.footer-1 .image h2 a {
+  text-decoration: none;
 }
 .footer-1 .image h3 {
   font-size: 1rem;
