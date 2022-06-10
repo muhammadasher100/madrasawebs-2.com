@@ -12236,9 +12236,10 @@ address p {
 }
 address .contact-details ul li {
   list-style-type: none;
+  margin-left: -2rem;
 }
 address .contact-details ul li span {
-  margin-left: -2rem;
+  margin-left: 1rem;
   font-weight: bold;
 }
 
